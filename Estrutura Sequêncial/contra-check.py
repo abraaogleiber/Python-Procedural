@@ -17,12 +17,16 @@ sindcato = (salario_bruto * 5) / 100
 total_descontos = (imp_renda + inss + sindcato)
 salario_liquido = (salario_bruto - total_descontos)
 
+
 # Saída dos valores calculados.
-print('{:=^32}'.format(' Extrato Salarial '))
-print(f'Salário Bruto -------- [R${salario_bruto:.2f}]')
-print(f'Imposto de Renda ----- [R${imp_renda:.2f}]')
-print(f'INSS ----------------- [R${inss:.2f}]')
-print(f'Sindcato ------------- [R${sindcato:.2f}]')
-print(f'Salário Líquido ------ [R${salario_liquido:.2f}]')
-print()
-print(f'Total de descontos --- [R${total_descontos:.2f}]')
+print('{:=^35}\n'.format(' Extrato Salarial '),
+      '\n',
+      f'Salário Bruto --------- [R${salario_bruto:.2f}]\n',
+      f'Imposto de Renda ------ [R${imp_renda:.2f}]\n',
+      f'INSS ------------------ [R${inss:.2f}]\n',
+      f'Sindcato -------------- [R${sindcato:.2f}]\n',
+      f'Salário Líquido ------- [R${salario_liquido:.2f}]\n',
+      '\n',
+      f'Total de Descontos ---- [R${total_descontos:.2f}]\n',
+      '\n',
+      '='*35)
