@@ -14,8 +14,8 @@ salario_bruto = ganho_hora * horas_trabalhadas
 imp_renda = (salario_bruto * 11) / 100
 inss = (salario_bruto * 8) / 100
 sindcato = (salario_bruto * 5) / 100
-salario_liquido = (salario_bruto - imp_renda - inss - sindcato)
 total_descontos = (imp_renda + inss + sindcato)
+salario_liquido = (salario_bruto - total_descontos)
 
 # Saída dos valores calculados.
 print('{:=^32}'.format(' Extrato Salarial '))
