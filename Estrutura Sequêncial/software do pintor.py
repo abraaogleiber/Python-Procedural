@@ -20,3 +20,4 @@ valor_latas = (quant_latas * 18)
 # Resultado do orçamento
 print(f'Para pintar uma área de {area:.1f}(m), será necessário {quant_latas} lata(s) de tinta')
 print(f'A(s) {quant_latas} lata(s) de tinta custará(ão) R${valor_latas:.2f}.')
+
