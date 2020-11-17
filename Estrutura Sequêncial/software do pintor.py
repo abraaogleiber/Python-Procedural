@@ -15,9 +15,8 @@ area = float(input('Área(m).: '))
 # Sabendo que 1 litro de tinta pinta 3 metros quadrados, fizemos os calculos.
 litros_tinta = int(area / 3)
 quant_latas = round(litros_tinta / 18)
-valor_latas = (quant_latas * 18)
+valor_latas = (quant_latas * 80)
 
-# Resultado do orçamento
+# Resultado do orçamento.
 print(f'Para pintar uma área de {area:.1f}(m), será necessário {quant_latas} lata(s) de tinta')
 print(f'A(s) {quant_latas} lata(s) de tinta custará(ão) R${valor_latas:.2f}.')
-
