@@ -6,7 +6,7 @@ data 20.11.2020     (Indefinida) Hs
 """
 
 # Verificando se um número é dicimal ou inteiro.
-numero = input('Digite um número.: ')
+numero = str(input('Digite um número.: ')).strip().lower()
 
 if '.' in numero:
     print('Decimal')
