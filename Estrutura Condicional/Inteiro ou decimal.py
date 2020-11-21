@@ -6,9 +6,11 @@ data 20.11.2020     (Indefinida) Hs
 """
 
 # Verificando se um número é dicimal ou inteiro.
-numero = str(input('Digite um número.: ')).strip().lower()
+numero = float(input('Digite um número.: '))
+replica_numero = int(numero) # Criamos uma versão da parte inteira de "numero".
 
-if '.' in numero:
+# Condição composta, verifica se é inteiro ou decimal.
+if numero > replica_numero:
     print('Decimal')
 else:
     print('Inteiro')
