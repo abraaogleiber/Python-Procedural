@@ -4,6 +4,7 @@ Programa 025
 data 18.11.2020     (Indefinida) Hs
 @Autor: Abraão A. Silva
 """
+
 # Coleta dos três valores.
 prod1 = float(input('[1]Preço(R$).: '))
 prod2 = float(input('[2]Preço(R$).: '))
