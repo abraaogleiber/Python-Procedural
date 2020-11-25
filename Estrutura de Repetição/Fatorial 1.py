@@ -14,13 +14,13 @@ while True:
     fatorial = 1
     print(f'{valor}!', end='= ')
     while valor > 0:
-        if valor != 1: # Condição como método de formatação.
+        if valor != 1:  # Condição como método de formatação.
             print(valor, end='x')
         else:
             print(valor, end=' = ')
-        
-        fatorial *= valor # Calculo do fatorial.
-        valor -= 1 # Processo de descremento até que cheguemos ao caso base.
+
+        fatorial *= valor  # Calculo do fatorial.
+        valor -= 1  # Processo de descremento até que cheguemos ao caso base.
 
     print(fatorial)
 
