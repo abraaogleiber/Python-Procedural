@@ -9,6 +9,6 @@ data 26.11.2020     (Indefinida) Hs
 print('{:-^40}'.format(' Panificadora um Pão e Meio '))
 pão = 0.18
 
-# Gerador da tabelo de preços.
+# Gerador da tabela de preços.
 for p in range(1, 51):
     print(f'{p:2} - R${pão*p:.2f}')
