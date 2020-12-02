@@ -5,7 +5,7 @@ data 01.12.2020     (Indefinida) Hs
 @Autor: Abraão A. Silva
 """
 
-# Variável composta; aramzena dados de forma sequêncial, ordenado.
+# Variável composta; armazena dados de forma sequêncial, ordenado.
 lista_notas = list()
 
 
