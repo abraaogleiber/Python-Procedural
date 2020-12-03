@@ -13,6 +13,7 @@ numeros = list()
 for n in range(10):
     numeros.append(int(input(f'{n+1:2}º Número.: ')))
 
+    # Calculos
     potencia += pow(numeros[n], 2)  # Poderia ser usado (x**2)
 
 # Saída do programa.
