@@ -5,6 +5,9 @@ data 07.12.2020     (Indefinida) Hs
 @Autor: Abraão A. Silva
 """
 
+import random
+
+# Cabeçalho do meu programa.
 print('\n',
       '{:¨^43}'.format('Opções de Sistemas Operacionais')+'\n',
       '\n',
@@ -23,7 +26,7 @@ acumulo = list()
 
 # Essa parte, colhe o voto, verifica sua validez e então armazena.
 while True:
-    voto = int(input('Voto.: '))
+    voto = random.randint(0, 6) # Utilizamos a biblioteca random para simular o usuário.
 
     if voto == 0:
         print('Votação Terminada.')
@@ -57,6 +60,7 @@ elif so == 6:
 else:
     vencedor = 'Empate'
 
+# Saída final do meu programa.
 sistemas = ('Windows Server', 'Linux', 'Unix', 'Netware', 'Mac Os', 'Outros')
 print(' {:-^54}'.format(' Relatório da enquete '))
 print(' Sistema Operacional'+'Votos'.rjust(15)+'Percentagem'.rjust(20)+'\n',
