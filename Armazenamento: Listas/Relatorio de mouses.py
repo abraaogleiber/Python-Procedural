@@ -5,6 +5,7 @@ data 08.12.2020     (Indefinida) Hs
 @Autor: Abraão A. Silva
 """
 
+
 # Declaração e inicialização das variáveis compostas.
 codigo_objetos, relatorios = list(), list()
 
