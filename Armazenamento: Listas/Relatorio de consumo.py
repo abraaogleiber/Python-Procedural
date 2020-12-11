@@ -26,6 +26,7 @@ for k in range(len(kms)):
         maior_km = kms[k]
         veiculo = carros[k]
 
+        
 # Relatório das informações processadas.
 print('\n')
 print('RELATÓRIO DE CONSUMO DE COMBUSTÍVEL'.center(87))
