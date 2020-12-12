@@ -9,7 +9,7 @@ data 12.12.2020     (Indefinida) Hs
 arquivo = open('/home/abraao/comparativo', 'r')
 
 # Arquivo criado e aberto para gravação subsequênte.
-busca = open('/home/abraao/retorno_busca.txt', 'a')     # Criamos um arquivo para armazenar as linhas
+busca = open('/home/abraao/retorno_busca.txt', 'w')     # Criamos um arquivo para armazenar as linhas
 for linha in arquivo:   # com a frase "departamento estadual de trânsito".
     if 'DEPARTAMENTO ESTADUAL DE TRÂNSITO' in linha:
         busca.write(linha)
