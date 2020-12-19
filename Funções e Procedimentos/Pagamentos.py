@@ -5,7 +5,8 @@ data 19.12.2020     (Indefinida) Hs
 @Autor: Abraão A. Silva
 """
 
-import time, random
+import time
+import random
 
 
 def relatorio_final(ts_t):
