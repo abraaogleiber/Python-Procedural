@@ -106,4 +106,5 @@ def main():
 
     relatorio_final(quant_transações)
 
+
 main()  # Chamada ou invocação, modo composição.
