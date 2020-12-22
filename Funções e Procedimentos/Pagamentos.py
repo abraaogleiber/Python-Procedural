@@ -7,18 +7,24 @@ data 19.12.2020     (Indefinida) Hs
 
 import time
 import random
+import os
 
 
 def relatorio_final(ts_t):
-    "Docstring"
+    """A função cria um aqruivo de armazenamento ou verifica sua existência, após grava
+     os dados da transação no arquivo .txt"""
 
-    print('¨'*40)
-    print('Relatório de transações diária'.center(40))
-    print('¨'*40)
+    if not(os.path.exists('/home/abraao/relatorio.txt')):
+        relatorio = open('/home/abraao/relatorio.txt', 'x')
+        relatorio.close()
+
+
+    relatorio = open('/home/abraao/relatorio.txt', 'a')
     for t in ts_t:
-        print('Transação Efetuada --> '+f'{t:.2f}'.rjust(10))
-    print('_'*40)
-
+        relatorio.write('Transação Efetuada --> '+f'{t:.2f}'.rjust(10)+'\n')
+    print('Um relatório das transações foi salvo na sua maquina.')
+    relatorio.close()
+        
 
 def relatorio(dados_pag):
     """Recebe a tupla de retorno da função \"pagamento\", itera seus elementos 
