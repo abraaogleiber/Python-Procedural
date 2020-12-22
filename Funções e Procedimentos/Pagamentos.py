@@ -12,7 +12,7 @@ import os
 
 def relatorio_final(ts_t):
     """A função cria um aqruivo de armazenamento ou verifica sua existência, após grava
-     os dados da transação no arquivo .txt"""
+     os dados da transação no arquivo .txt."""
 
     if not(os.path.exists('/home/abraao/relatorio.txt')):
         relatorio = open('/home/abraao/relatorio.txt', 'x')
