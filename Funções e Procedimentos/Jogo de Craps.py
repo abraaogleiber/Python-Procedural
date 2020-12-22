@@ -5,6 +5,9 @@ data 21.12.2020     (Indefinida) Hs
 @Autor: Abraão A. Silva
 """
 
+import random
+import time
+
 
 def resultado(valor_dados, rodada):
     "Função responsável por avaliar valores dos dados."
@@ -40,13 +43,11 @@ def resultado(valor_dados, rodada):
 def jogar_dados(n_rodada):
     "Função responsavel por gerar valores dos dados."
 
-    import random
-    import time
-
     print('Jogando os dados...')
     time.sleep(3)
     valor_rodada = random.randint(2, 12)   # Representa dois dados sendo lançados.
     rodada = n_rodada
+    print(f'Valor dos dados [{valor_rodada}]')
 
     return resultado(valor_dados=valor_rodada, rodada=rodada)
 
@@ -54,8 +55,6 @@ def jogar_dados(n_rodada):
 def main():
     "Função principal, chama as demais funções."
     
-    import time
-
     rodada = 1
     while True:
         print(f'<[{rodada}º Rodada]>')
@@ -63,9 +62,11 @@ def main():
         result = jogar_dados(n_rodada=rodada)
 
         if result == 0:
+            print('-'*30)
             break
         else:
             rodada += 1
+        print('-'*30)
 
 
 main()
