@@ -3581,3 +3581,4 @@ venv/lib/python3.8/site-packages/autopep8.py
 Funções e Procedimentos/teste rápido.py
 Módulos e Pacotes./__pycache__/Operações.cpython-38.pyc
 Módulos e Pacotes./__pycache__/operacao.cpython-38.pyc
+*.pyc
