@@ -1,4 +1,4 @@
-# Python Procedural
+# Python procedural
 ***
 
 >> Este repositório armazena um conjunto de exercícios
