@@ -9,5 +9,5 @@ data 15.11.2020     (Indefinida) Hs
 # Formula A = Pi.r**2
 
 raio = float(input('Valor do Raio.: '))
-area = 3.14 * raio**2
-print(f'A circunferência, cujo raio é {raio:.1f} tem área igual a {area:.1f}.')
+areaCircunferencia = 3.14 * (raio**2)
+print(f'A circunferência, cujo raio é {raio:.1f} tem área igual a {areaCircunferencia:.1f}.')
