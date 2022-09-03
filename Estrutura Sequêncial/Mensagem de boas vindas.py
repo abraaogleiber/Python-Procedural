@@ -1,7 +1,5 @@
 """
-Programa 001
-Área de estudos.
-data 14.11.2020     (Indefinida) Hs
+Programa 001 | Área de estudos. | data 14.11.2020 | (Indefinida) Hs
 @Autor: Abraão A. Silva
 """
 

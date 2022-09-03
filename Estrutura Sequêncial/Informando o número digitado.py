@@ -1,10 +1,7 @@
 """
-Programa 002
-Área de estudos.
-data 14.11.2020     (Indefinida) Hs
+Programa 002 | Área de estudos. | data 14.11.2020 | (Indefinida) Hs
 @Autor: Abraão A. Silva
 """
-
 
 # Modo 1
 numero = int(input('Informe um número.: '))
