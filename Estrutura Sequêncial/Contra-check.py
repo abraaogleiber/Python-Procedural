@@ -10,9 +10,9 @@ quantHorasTrabalhadas = int(input('Quantidade de horas trabalhadas.: '))
 # Calculos de imp. Renda, inss, sindicato, salario líquido e bruto.
 salarioBruto = ValorHora * quantHorasTrabalhadas
 inss = (salarioBruto * 7.5) / 100
-sindicato = (salario_bruto * 5) / 100
-totalDescontos = (imp_renda + inss + sindcato)
-salario_liquido = (salario_bruto - total_descontos)
+sindicato = (salarioBruto * 5) / 100
+totalDescontos = (inss + sindicato)
+salarioLiquido = (salarioBruto - totalDescontos)
 
 
 # Saída dos valores calculados.
