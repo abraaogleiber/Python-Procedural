@@ -20,7 +20,6 @@ taxaTransferencia = (velocidadeRede / 8)
 tempoEstimadoSegundo = tamanhoArquivo / (velocidadeRede / 8)
 tempoEstimadoMinuto = (tempoEstimadoSegundo / 60)
 
-# Relatório de Download.
 print(
     ' {:=^50}\n'.format(' Informações da Transferencia '),
     f'Taxa de Transferência ---- {taxaTransferencia:.3f}(MB)\n',
