@@ -1,20 +1,17 @@
 """
-Programa 014
-Área de estudos.
-data 17.11.2020     (Indefinida) Hs
+Programa 014 | Área de estudos. | data 17.11.2020 | (Indefinida) Hs
 @Autor: Abraão A. Silva
 """
 
 # Entrada dos dados do funcionário.
-ganho_hora = float(input('Valor da sua hora.: '))
-horas_trabalhadas = int(input('Quantidade de horas trabalhadas.: '))
+ValorHora = float(input('Valor da sua hora.: '))
+quantHorasTrabalhadas = int(input('Quantidade de horas trabalhadas.: '))
 
-# Calculos de imp. Renda, inss, sindcato, salario líquido e bruto.
-salario_bruto = ganho_hora * horas_trabalhadas
-imp_renda = (salario_bruto * 11) / 100
+# Calculos de imp. Renda, inss, sindicato, salario líquido e bruto.
+salarioBruto = ValorHora * quantHorasTrabalhadas
 inss = (salario_bruto * 8) / 100
-sindcato = (salario_bruto * 5) / 100
-total_descontos = (imp_renda + inss + sindcato)
+sindicato = (salario_bruto * 5) / 100
+totalDescontos = (imp_renda + inss + sindcato)
 salario_liquido = (salario_bruto - total_descontos)
 
 
