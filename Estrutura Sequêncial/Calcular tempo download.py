@@ -6,12 +6,12 @@ data 17.11.2020     (Indefinida) Hs
 """
 
 """
-1 Byte é igual á 8 bits. Para calcular, temos que dividir a velocidade da conexão em Megabits por 8 bits. ex: 10(velocidade) / 8 = 1.25 (MB/s) taxa de transferência. Depois dividimos o tamanho do arquivo por pela taxa de transferência.
+1 Byte é igual á 8 bits. Para calcular, temos que dividir a velocidade da conexão em (Megabits) por 8. ex: 10(velocidade) / 8 = 1.25 (MB/s) taxa de transferência.
+Depois dividimos o tamanho do arquivo por pela taxa de transferência.
 
-Equação = tamanho do arquivo (megabytes) / (velocidade da rede em megabits / 8(bits)) = tempo segundo.
+Equação = tamanho do arquivo (megabytes) / (velocidade da trasmissão em megabits / 8(bits)) = tempo segundo.
 """
 
-# Entrada dos dados do arquivo e da rede.
 tamanho_arquivo = float(input('Tamanho do arquivo(MB).: '))
 velocidade_rede = float(input('Velocidade da rede(Mb/s).: '))
 
