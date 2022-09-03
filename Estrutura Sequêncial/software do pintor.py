@@ -1,7 +1,5 @@
 """
-Programa 015
-Área de estudos.
-data 17.11.2020     (Indefinida) Hs
+Programa 015 | Área de estudos. | data 17.11.2020 | (Indefinida) Hs
 @Autor: Abraão A. Silva
 """
 
@@ -10,13 +8,13 @@ print('-='*25)
 print('~ Orçamento para pinturas ~'.center(49))
 print('=-'*25)
 
-area = float(input('Área(m).: '))
+area = float(input('Área(m) -> '))
 
-# Sabendo que 1 litro de tinta pinta 3 metros quadrados, fizemos os calculos.
-litros_tinta = int(area / 3)
-quant_latas = round(litros_tinta / 18)
-valor_latas = (quant_latas * 80)
+# Sabendo que 1 litro de tinta pinta 3 metros quadrados.
+litrosTinta = int(area / 3)
+quantLatas = round(litrosTinta / 18)
+valorLatas = (quantLatas * 80)
 
 # Resultado do orçamento.
-print(f'Para pintar uma área de {area:.1f}(m), será necessário {quant_latas} lata(s) de tinta')
-print(f'A(s) {quant_latas} lata(s) de tinta custará(ão) R${valor_latas:.2f}.')
+print(f'Para pintar uma área de {area:.1f}(m), será necessário {quantLatas} lata(s) de tinta')
+print(f'A(s) {quantLatas} lata(s) de tinta custará(ão) R${valorLatas:.2f}.')
