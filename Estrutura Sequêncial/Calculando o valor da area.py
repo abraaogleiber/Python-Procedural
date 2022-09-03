@@ -8,6 +8,8 @@ data 15.11.2020     (Indefinida) Hs
 # Calculo da área de uma circunferência.
 # Formula A = Pi.r**2
 
+PI = 3.14
+
 raio = float(input('Valor do Raio.: '))
-areaCircunferencia = 3.14 * (raio**2)
+areaCircunferencia = PI * (raio**2)
 print(f'A circunferência, cujo raio é {raio:.1f} tem área igual a {areaCircunferencia:.1f}.')
