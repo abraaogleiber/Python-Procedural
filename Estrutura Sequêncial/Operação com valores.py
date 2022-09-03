@@ -1,7 +1,5 @@
 """
-Programa 010
-Área de estudos.
-data 16.11.2020     (Indefinida) Hs
+Programa 010 | Área de estudos. | data 16.11.2020 | (Indefinida) Hs
 @Autor: Abraão A. Silva
 """
 
